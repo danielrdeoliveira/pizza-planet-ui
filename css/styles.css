@@ -2,6 +2,10 @@
   padding: 1em 1em;
 }
 
+#beverage-alert {
+  display: none;
+}
+
 #order-alert {
   display: none;
 }
