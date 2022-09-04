@@ -10,6 +10,7 @@ fetch('http://127.0.0.1:5000/ingredient')
 
 
 function createIngredientTemplate(ingredient) {
+    console.log(ingredient)
     let template = $("#ingredient-item-template")[0].innerHTML;
     return Mustache.render(template, ingredient);
 }
